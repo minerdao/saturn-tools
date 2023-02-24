@@ -7,7 +7,11 @@
 ```
 apt  install gccgo-go
 ```
-### 2、使用代码前请修改代码中地址为需要统计的地址,涉及到三处修改:
+### 2、下载代码:
+```
+git clone https://github.com/minerdao/saturn-tools.git
+```
+### 3、使用代码前请修改代码中地址为需要统计的地址,涉及到三处修改:
 ```
 var filAddressLocationMap = map[string]string{
         "f1wf7lu7quwz5hgsl5qybnjf................": "US", //第二个字段代表地址对应的地理位置,根据自己服务器地址实际位置填写
@@ -32,7 +36,7 @@ func sumTotalFilAmount() {
 
 
 ```
-### 3、运行程序:
+### 4、运行程序:
 ```
 go run check_reward.go
 ```
