@@ -2,7 +2,7 @@
 #### 这是一个saturn-node的运维工具,提供的功能,适合有多个地址用户使用,主要提供以下功能:
 - 统计节点最近24小时收益
 - 统计最近24小时所有地址总收益
-#### 所有数据都来源于[https://dashboard.strn.network/stats],不会收集任何用户隐私数据.
+#### 所有数据都来源于[https://dashboard.strn.network/stats],
 ### 1、使用此工具前需要安装go:
 ```
 apt  install gccgo-go
